@@ -6,17 +6,18 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-
-
 @CucumberOptions(
-		plugin = "html:target/cucumber-reports",
-		features = "src/test/resources/features", 
-		glue = "com/fourstay/step_definitions", 
-		tags = "@Staytest_125",
-		dryRun = false
-		
+		plugin={"html:target/cucumber-report", "json:target/cucumber.json"},
+		features="src/test/resources/features",
+		glue = "com/fourstay/step_definitions",
+		//tags="@Staytest_125, @Staytest_124, @search, @homepage, @login",
+		tags="@Staytest_125",
+		dryRun=false
 		)
-
 public class CukesRunner {
 
+	
+	
+	
+	
 }

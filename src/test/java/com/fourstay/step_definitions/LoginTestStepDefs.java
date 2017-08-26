@@ -1,11 +1,14 @@
 package com.fourstay.step_definitions;
 
-
+import org.junit.Assert;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import com.fourstay.pages.HomePage;
 import com.fourstay.utilities.ConfigurationReader;
 import com.fourstay.utilities.Driver;
+
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -50,5 +53,6 @@ public class LoginTestStepDefs {
 		homePage.loginBtn.click();
 	}
 	
+// Fatma says comeback at 3.00
 
 }
