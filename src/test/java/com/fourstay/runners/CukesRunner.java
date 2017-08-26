@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 		features = "src/test/resources/features", 
 		glue = "com/fourstay/step_definitions", 
 		tags = "@Staytest_125",
-		dryRun = false
+		dryRun = true
 		
 		)
 public class CukesRunner {
