@@ -6,6 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
+
 @CucumberOptions(
 		plugin = "html:target/cucumber-reports",
 		features = "src/test/resources/features", 
@@ -14,6 +15,7 @@ import cucumber.api.junit.Cucumber;
 		dryRun = false
 		
 		)
+
 public class CukesRunner {
 
 }
