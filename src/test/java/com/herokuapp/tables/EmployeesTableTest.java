@@ -1,15 +1,12 @@
 package com.herokuapp.tables;
 
-import static org.junit.Assert.*;
 
 import java.util.List;
-
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
 import com.fourstay.utilities.ConfigurationReader;
 import com.fourstay.utilities.Driver;
 
