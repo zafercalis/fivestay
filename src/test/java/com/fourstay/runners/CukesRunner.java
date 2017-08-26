@@ -13,15 +13,7 @@ glue = "com/fourstay/step_definitions",
 tags = "@Staytest_125", 
 dryRun = true )
 
-// branch 'master' of https://github.com/cbttestuser1/automation-project-test.git
-
-// HEAD
-// please dont ruine this!
-//hello team
-
-// branch 'master' of https://github.com/cbttestuser1/automation-project-test.git
-
-
+//hello team!!
 
 public class CukesRunner {
 
