@@ -6,17 +6,19 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-
-
 @CucumberOptions(
 		plugin = "html:target/cucumber-reports",
 		features = "src/test/resources/features", 
 		glue = "com/fourstay/step_definitions", 
 		tags = "@Staytest_125",
-		dryRun = false
+		dryRun = true
+		// adding a useless comment
+		
+		//RuslanK
+		
+		
 		
 		)
-
 public class CukesRunner {
 
 }
