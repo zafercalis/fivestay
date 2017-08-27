@@ -7,9 +7,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = { "html:target/cucumber-report",
-		"json:target/cucumber.json" }, 
-features = "src/test/resources/features", glue = "com/fourstay/step_definitions",
-		
+		"json:target/cucumber.json" }, features = "src/test/resources/features", glue = "com/fourstay/step_definitions",
+
 		tags = "@Staytest_125", dryRun = false)
 
 public class CukesRunner {
