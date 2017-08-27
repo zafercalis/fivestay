@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 		"json:target/cucumber.json" }, features = "src/test/resources/features", glue = "com/fourstay/step_definitions",
 		// tags="@Staytest_125, @Staytest_124, @search, @homepage, @login",
 		tags = "@Staytest_125", dryRun = true)
-// hi it is just testing!!!
+// just adding a comment
 public class CukesRunner {
 
 }
