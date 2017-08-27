@@ -1,0 +1,17 @@
+<carRentalRequest>
+	<location>
+		<city>Washington, DC </city>
+		<airport>IAD</airport>
+	</location>
+
+	<pickup>
+		<date>08/27/2017</date>
+		<time>1:00 pm</time>
+	</pickup>
+
+	<dropoff>
+		<date>08/28/2017</date>
+		<time>1:00 pm</time>
+	</dropoff>
+
+</carRentalRequest>
