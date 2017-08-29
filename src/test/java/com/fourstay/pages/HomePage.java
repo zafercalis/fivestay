@@ -11,6 +11,7 @@ public class HomePage {
 	public HomePage() {
 		PageFactory.initElements(Driver.getInstance(), this);
 	}
+	
 
 	@FindBy(css = ".not-login")
 	public WebElement loginLink;
@@ -35,5 +36,8 @@ public class HomePage {
 
 	@FindBy(id = "search")
 	public WebElement search;
+	
+	@FindBy(id = "login")
+	public WebElement login;
 
 }
