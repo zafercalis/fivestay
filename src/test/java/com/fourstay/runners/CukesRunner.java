@@ -9,7 +9,8 @@ import cucumber.api.junit.Cucumber;
 	features = "src/test/resources/features", 
 	glue = "com/fourstay/step_definitions", 
 	tags = "@smoke", 
-	dryRun = false
+	dryRun = true
+	//changed to true
 
 		)
 
